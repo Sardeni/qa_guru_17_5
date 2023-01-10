@@ -1,11 +1,8 @@
 package com.sardeni;
 
-import org.junit.jupiter.api.Test;
-
 public class PrimitivesAndCalculations {
 
-    @Test
-    void overOfMemory() {
+    public static void overOfMemory() {
 
         byte varByte = 120 + 10;
         System.out.println(varByte);
@@ -18,8 +15,8 @@ public class PrimitivesAndCalculations {
         System.out.println(varInt);
 
     }
-    @Test
-    void checkMathOperators() {
+
+    public static void checkMathOperators() {
 
         int a = 2 + 5;
         System.out.println(a);
@@ -43,8 +40,8 @@ public class PrimitivesAndCalculations {
         System.out.println(c--);
 
     }
-    @Test
-    void compareOperators() {
+
+    public static void compareOperators() {
         int f = 3;
         int g = 5;
         int h = 3;
@@ -55,8 +52,8 @@ public class PrimitivesAndCalculations {
         System.out.println(f != g);
         System.out.println(f == h);
     }
-    @Test
-    void calculatingDifferenceTypes() {
+
+    public static void calculatingDifferenceTypes() {
 
         int varInt = 23;
         double varDouble = 5.24;
